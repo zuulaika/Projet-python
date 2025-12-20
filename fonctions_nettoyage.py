@@ -26,3 +26,20 @@ def selection_top_partis(df_parti, cols_par_bloc=2, n_top=10):
 
     df_filtre = df_parti.iloc[:, cols_a_garder]
     return df_filtre, df_somme
+
+
+def chang_col(df, cols_par_bloc=2):
+    cols_a_garder = []
+    noms_colonnes = []
+    for i in range(0, df.shape[1], cols_par_bloc):
+        bloc = df.iloc[:, i:i+cols_par_bloc]
+        nom_parti = bloc.iloc[0, 0]
+
+        col_index = i + 1
+        cols_a_garder.append(col_index)
+        noms_colonnes.append(nom_parti)
+
+    df_final = df.iloc[:, cols_a_garder].copy()
+    df_final.columns = noms_colonnes
+
+    return df_final
