@@ -1,6 +1,6 @@
 # Ecole: ENSAE 
 ## Projet Python pour la Data Science
- Auteurs : *DIARRA ZULAIKA *  
+ Auteurs : *DIARRA ZULAIKA*, *MEMET Marie-Camille*, *TIENTCHEU Varnel* 
 
 # Sujet :
 <div align="justify">
