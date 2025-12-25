@@ -22,6 +22,8 @@ Enfin, le cœur de l'étude repose sur une modélisation par Régression Linéai
  - Résultats des élections européennes 2019 et 2024, par département:
    https://www.data.gouv.fr/datasets/resultats-des-elections-europeennes-2019
      https://www.data.gouv.fr/datasets/resultats-des-elections-europeennes-du-9-juin-2024
+
+Bien que les données électorales, le taux de chômage et les statistiques de criminalité soient parfaitement synchronisés pour chaque élection, une contrainte technique s'est imposée pour l'analyse de 2019. Faute de disponibilité immédiate des indicateurs socio-économiques précis pour cette année-là (revenu médian, pauvreté, diplômes), nous avons utilisé les données de 2022 comme variables de substitution (proxies). Nous sommes conscients que cette approximation est forte, étant donné les bouleversements majeurs survenus entre ces deux dates (crise sanitaire, inflation), mais ces indicateurs structurels restent suffisamment stables à court terme pour fournir une estimation pertinente des dynamiques territoriales de l'époque, faute de mieux.
      
 
 # Principaux résultats
