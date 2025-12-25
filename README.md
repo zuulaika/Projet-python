@@ -22,10 +22,15 @@ Enfin, le cœur de l'étude repose sur une modélisation par Régression Linéai
  - Résultats des élections européennes 2019 et 2024, par département:
    https://www.data.gouv.fr/datasets/resultats-des-elections-europeennes-2019
      https://www.data.gouv.fr/datasets/resultats-des-elections-europeennes-du-9-juin-2024
-     -
+     
 
-     # Navigation au sein du projet : 
-     - Première partie: Nettoyage et modelisation des données sur les élections dans les codes ... et ... et de celles sur la criminalité dans le code (Varnel)
-     - Deuxieme partie: Camille
-     - Troisième partie: Regression (Varnel) ( oublie pas de faire celle avec criminalite et chomage uniquement stp) 
+# Principaux résultats
+L'analyse comparative entre 2019 et 2024 met en évidence une rupture structurelle majeure dans les déterminants économiques du vote en France. Alors que le paysage politique s'organisait auparavant selon une logique de classe lisible, où le Centre incarnait le vote de la stabilité et de la prospérité économique, l'année 2024 marque l'effondrement de ce modèle. Nos résultats révèlent que le vote centriste s'est déconnecté de ses ancrages matériels traditionnels : la richesse du territoire et le dynamisme de l'emploi ne sont plus des facteurs prédictifs significatifs. Ce bloc central semble désormais flotter sociologiquement, ayant perdu sa boussole économique pour ne conserver qu'une base électorale définie par défaut, isolée des réalités locales de production.
+
+Face à ce centre devenue illisible, les oppositions se sont radicalisées autour d'une nouvelle tripartition sociale rigide. La Gauche opère un "grand écart" territorial inédit en devenant simultanément le refuge des zones de grande précarité et le choix des centres urbains aisés, tout en échouant durablement à capter le vote lié au chômage. En miroir, la Droite consolide sa position de vote du "milieu en tension", capitalisant sur les inégalités et le sentiment de déclassement intermédiaire. Elle se heurte cependant à un double rejet explicite : elle ne parvient à séduire ni les territoires les plus riches, ni les foyers de grande exclusion. Le paysage électoral français ne reflète plus une simple opposition idéologique, mais trois réalités économiques cloisonnées : la protection et l'aisance pour la Gauche, la frustration du déclassement pour la Droite, et une incertitude structurelle pour le Centre.
+
+ # Navigation au sein du projet : 
+- Première partie: Nettoyage et modelisation des données sur les élections dans les codes ... et ... et de celles sur la criminalité dans le code (Varnel)
+- Deuxieme partie: Camille
+- Troisième partie: Regression (Varnel) ( oublie pas de faire celle avec criminalite et chomage uniquement stp) 
      
