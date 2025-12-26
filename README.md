@@ -32,7 +32,7 @@ L'étude montre que le paysage politique a complètement changé entre 2019 et 2
 À l'inverse, les autres camps se sont radicalisés dans des directions opposées. La Gauche fait désormais un véritable "grand écart" : elle attire à la fois les populations les plus pauvres et les habitants aisés des grandes villes, mais elle n'arrive toujours pas à capter le vote des chômeurs. De l'autre côté, la Droite s'est installée comme le vote de la "France du milieu qui souffre". Elle réalise ses meilleurs scores là où il y a du chômage et des inégalités, mais elle est rejetée par les deux extrêmes : elle ne séduit ni les plus riches, ni les plus pauvres. En résumé, on a trois blocs qui correspondent désormais à trois réalités économiques totalement séparées.
 
  # Navigation au sein du projet : 
-- Première partie: Nettoyage et modelisation des données sur les élections dans les codes ... et ... et de celles sur la criminalité dans le code (Varnel)
+- Première partie: Nettoyage et modelisation des données sur les élections 
 - Deuxieme partie: Camille
-- Troisième partie: Regression (Varnel) ( oublie pas de faire celle avec criminalite et chomage uniquement stp) 
+- Troisième partie: Regression (Varnel) 
      
