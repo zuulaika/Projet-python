@@ -3,6 +3,26 @@ import numpy as np
 import pandas as pd
 
 def selection_top_partis(df_parti, cols_par_bloc=2, n_top=10):
+    """
+    Paramètres
+    ----------
+    df_parti : pandas.DataFrame
+        DataFrame contenant les résultats électoraux organisés par blocs de colonnes
+        (nom du parti + pourcentage de voix).
+    cols_par_bloc : int, default=2
+        Nombre de colonnes correspondant à un parti.
+    n_top : int, default=10
+        Nombre de partis les plus représentés à sélectionner.
+
+    Returns
+    -------
+    df_filtre : pandas.DataFrame
+        DataFrame filtré ne contenant que les partis sélectionnés.
+    df_somme : pandas.DataFrame
+        Tableau récapitulatif du poids national de chaque parti.
+    """
+
+
     somme_voix_exp = []
     #Calcul du poids national de chaque parti
     for i in range(0, df_parti.shape[1], cols_par_bloc):
@@ -29,6 +49,20 @@ def selection_top_partis(df_parti, cols_par_bloc=2, n_top=10):
 
 
 def chang_col(df, cols_par_bloc=2):
+    """
+    Paramètres
+    ----------
+    df : pandas.DataFrame
+        DataFrame structuré par blocs de colonnes (nom du parti + valeurs associées).
+    cols_par_bloc : int, default=2
+        Nombre de colonnes correspondant à un parti.
+
+    Returns
+    -------
+    df_final : pandas.DataFrame
+        DataFrame contenant uniquement les colonnes de valeurs, renommées
+        avec le nom des partis correspondants.
+    """
     cols_a_garder = []
     noms_colonnes = []
     for i in range(0, df.shape[1], cols_par_bloc):
