@@ -32,7 +32,16 @@ L'étude montre que le paysage politique a complètement changé entre 2019 et 2
 À l'inverse, les autres camps se sont radicalisés dans des directions opposées. La Gauche fait désormais un véritable "grand écart" : elle attire à la fois les populations les plus pauvres et les habitants aisés des grandes villes, mais elle n'arrive toujours pas à capter le vote des chômeurs. De l'autre côté, la Droite s'est installée comme le vote de la "France du milieu qui souffre". Elle réalise ses meilleurs scores là où il y a du chômage et des inégalités, mais elle est rejetée par les deux extrêmes : elle ne séduit ni les plus riches, ni les plus pauvres. En résumé, on a trois blocs qui correspondent désormais à trois réalités économiques totalement séparées.
 
  # Navigation au sein du projet : 
-- Première partie: Nettoyage et modelisation des données sur les élections 
-- Deuxieme partie: Camille
-- Troisième partie: Regression (Varnel) 
-     
+- Le fichier *CODE_PRINCIPAL.ipynb* représente le code de base de notre travail et comporte successivement:
+    - Le nettoyage et la mise en forme des données sur les élections;
+    - L'analyse cartographique du chômage en 2019 et en 2024;
+    - La répartition des départements sous forme de clusters par la méthode K-means;
+    - La modélisation des résultats de vote au moyen d'un modèle de régression Linéaire multiple.
+
+- Le fichier *datasets.ipynb* contient le code pour récupérer toutes les variables explicatives nécessaires pour le modèle de regression. C'est grâce à lui qu'on obtient le fichier *df_regressions.csv*.
+
+- Le fichier *criminalite.ipynb* présente une analyse descriptive de l'évolution de la criminaité en France depuis 2013.
+
+- Les fichiers *ee_bp19.csv* et *ee_bp24.csv* représentent les bases finales nettoyées et prêtes à l'emploi, résultant de la partie nettoyage du fichier *CODE_PRINCIPAL.ipynb*
+
+
