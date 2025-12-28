@@ -11,7 +11,7 @@
  # Problématique : 
  Quels sont les déterminants socio-économiques des choix de vote aux élections européennes en France ? Les profils électoraux observés en 2019 sont-ils comparables à ceux de 2024 ?
 
- # Modèle utilisé et outils utiliés: 
+ # Modèle et outils utilisés: 
  Le travail préparatoire a consisté en une restructuration complète des bases de données électorales, couplée à une stratégie d'enrichissement par des indicateurs socio-économiques tels que le chômage et la criminalité. Cette phase cruciale de nettoyage a permis d'agréger la multitude de listes candidates en trois grands blocs idéologiques (Gauche, Centre, Droite), facilitant ainsi une lecture macroscopique et comparative des dynamiques territoriales.
 
 Sur le plan analytique, une première approche exploratoire non-supervisée par clustering (K-means) a été mise en œuvre pour faire émerger une typologie des départements français. Cette méthode a permis d'identifier des profils électoraux homogènes basés uniquement sur la ressemblance des scores, indépendamment des critères purement géographiques, révélant ainsi des structures territoriales latentes.
