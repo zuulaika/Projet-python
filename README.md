@@ -40,7 +40,7 @@ L'étude montre que le paysage politique a complètement changé entre 2019 et 2
 
 - Le fichier *datasets.ipynb* contient le code pour récupérer toutes les variables explicatives nécessaires pour le modèle de regression. C'est grâce à lui qu'on obtient le fichier *df_regressions.csv*.
 
-- Le fichier *criminalite.ipynb* présente une analyse descriptive de l'évolution de la criminaité en France depuis 2013.
+- Le fichier *criminalite.ipynb* présente une analyse descriptive plus détaillée de l'évolution de la criminalité en France depuis 2013.
 
 - Les fichiers *ee_bp19.csv* et *ee_bp24.csv* représentent les bases finales nettoyées et prêtes à l'emploi, résultant de la partie nettoyage du fichier *CODE_PRINCIPAL.ipynb*
 
